@@ -4,7 +4,7 @@
 
 /**
  * main - State if the last digit is >5, <6 but not 0, is 0
- * 
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -24,7 +24,7 @@ int main(void)
 	{
 		printf("and is 0\n");
 	}
-	else 
+	else
 	{
 		printf("and is less than 6 and not 0\n");
 	}
