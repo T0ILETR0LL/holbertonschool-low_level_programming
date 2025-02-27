@@ -8,10 +8,15 @@
 int main(void)
 {
 	char letter;
+	char last_letter;
 
-	for (letter = 'a'; letter = 'z'; letter++)
+	letter = 'z';
+	last_letter = 'a' - 1;
+
+	while (letter != last_letter)
 	{
 		putchar(letter);
+		letter = letter - 1;
 	}
 	putchar('\n');
 	return (0);
