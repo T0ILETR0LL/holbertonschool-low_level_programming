@@ -11,9 +11,8 @@ int main(void)
 	char space;
 	char comma;
 
-	space=0x20;
-	comma=0x2C;
-	
+	space = 0x20;
+	comma = 0x2C;
 	for (number = '0'; number <= '9'; number++)
 	{
 		putchar(number);
