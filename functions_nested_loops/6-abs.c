@@ -3,16 +3,15 @@
 /**
  * _abs - computes the absoloute value of an interger
  * @n: variable
- * Return: (1) positive, (0) zero, (-1) negative, (-98) 
+ * Return: (-n) or (n)
  */
 int _abs(int n)
 {
-	
 	if (n < 0)
 	{
 		return (-n);
 	}
-	else 
+	else
 	{
 		return (n);
 	}
