@@ -1,8 +1,9 @@
-/* 1-alphabet.c */
-
 #include "main.h"
 
-void print_alphabet(void)/*prints alphabet*/
+/**
+ * print_alphabet - prints alphabet ASCII
+ */
+void print_alphabet(void)
 {
 	char letter;
 
