@@ -2,8 +2,7 @@
 
 #include "main.h"
 
-/* prints alphabet */
-void print_alphabet(void)
+void print_alphabet(void)/*prints alphabet*/
 {
 	char letter;
 
