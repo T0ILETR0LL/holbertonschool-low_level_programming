@@ -5,11 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
-/**
- * print alphabet using ASCII
- * Betty so fussy
- */
-void print_alphabet(void)
+void print_alphabet(void) /*betty wants a comment*/
 {
 	char letter;
 
