@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	char *str = "putchar";
 
@@ -14,7 +14,7 @@ int main (void)
 	{
 		_putchar(*str);
 		str++;
-	}	
+	}
 	_putchar('\n');
 	return (0);
 }
