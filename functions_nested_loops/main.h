@@ -1,4 +1,4 @@
-#ifndef HEADER_H
-#define HEADER_H
+#define MAIN_H
 
 int _putchar(char c);
+
