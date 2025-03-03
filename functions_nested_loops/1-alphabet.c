@@ -5,7 +5,10 @@
  *
  * Return: Always 0 (Success)
  */
-/*print alphabet using ASCII*/
+/**
+ * print alphabet using ASCII
+ * Betty so fussy
+ */
 void print_alphabet(void)
 {
 	char letter;
