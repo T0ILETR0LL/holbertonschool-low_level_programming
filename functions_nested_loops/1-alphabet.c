@@ -5,16 +5,15 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-	char ch;
 
-	ch = 0x61;
-	while (ch != 0x7B)
+void print_alphabet(void)
+{
+	char letter;
+
+	letter = 0x61;
+	while (letter != 0x7B)
 	{
-		_putchar(ch);
-		ch++;
+		_putchar(letter);
+		letter++;
 	}
-	_putchar('\n');
-	return (0);
 }
