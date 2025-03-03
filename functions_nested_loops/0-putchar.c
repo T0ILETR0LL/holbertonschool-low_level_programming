@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * main - print a string
+ *
+ * Return: Always 0 (Success)
+ */
 int main (void)
 {
 	char *str = "putchar";
