@@ -1,11 +1,9 @@
+/* 1-alphabet.c */
+
 #include "main.h"
 
-/**
- * main - print alphabet
- *
- * Return: Always 0 (Success)
- */
-void print_alphabet(void) /*betty wants a comment*/
+/* prints alphabet */
+void print_alphabet(void) 
 {
 	char letter;
 
