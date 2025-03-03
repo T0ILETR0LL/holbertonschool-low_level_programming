@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
-  print_alphabet_x10 - prints alphabet 10 times
+ * print_alphabet_x10 - prints alphabet 10 times
  */
 void print_alphabet_x10(void)
 {
 	char letter;
 	char start;
-	
+
 	start = '0';
 	while (start <= '9')
 	{
@@ -19,6 +19,5 @@ void print_alphabet_x10(void)
 		}
 		start++;
 		_putchar('\n');
-		
 		}
 }
