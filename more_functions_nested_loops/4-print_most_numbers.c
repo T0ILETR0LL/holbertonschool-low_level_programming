@@ -7,7 +7,7 @@
  */
 void print_most_numbers(void)
 {
-	char *number = "1356789";
+	char *number = "01356789";
 
 	while (*number != '\0')
 	{
