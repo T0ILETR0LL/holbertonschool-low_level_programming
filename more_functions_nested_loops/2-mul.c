@@ -2,7 +2,8 @@
 
 /**
  * mul - multiplies two intergers
- * @a, b: interger
+ * @a: variable
+ * @b: variable
  * Return: (result)
  */
 int mul(int a, int b)
