@@ -13,7 +13,7 @@ int  main(void)
 	int div5;
 
 	n = 1;
-	for (n = 1; n < 101; n++)
+	for (n = 1; n < 100; n++)
 	{
 		div3 = n % 3;
 		div5 = n % 5;
@@ -25,19 +25,16 @@ int  main(void)
 		{
 			printf("Fizz ");
 		}
-		if (div5 == 0 && div3 != 0 && n == 100)
+		if (div5 == 0 && div3 != 0)
 		{
 			printf("Buzz ");
 		}
 		if (div5 != 0 && div3 != 0)
 		{
 			printf("%d ", n);
-		if (n == 100)
-		{
-			printf("Buzz");
-		}
 		}
 	}
+	printf("Buzz");
 	printf("\n");
 	return(0);
 }
