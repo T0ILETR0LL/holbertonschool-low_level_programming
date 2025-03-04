@@ -13,6 +13,7 @@ void more_numbers(void)
 	while (lines <= '9')
 	{
 		char *number = "01234567891011121314";
+
 		while (*number != '\0')
 		{
 			_putchar(*number);
