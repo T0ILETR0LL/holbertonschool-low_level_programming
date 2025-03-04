@@ -2,8 +2,8 @@
 
 /**
  * mul - multiplies two intergers
- *
- * Return: (1) if c is digit, (0) otherwise
+ * @a, b: interger
+ * Return: (result)
  */
 int mul(int a, int b)
 {
