@@ -25,7 +25,7 @@ int  main(void)
 		{
 			printf("Fizz ");
 		}
-		if (div5 == 0 && div3 != 0)
+		if (div5 == 0 && div3 != 0 && n == 100)
 		{
 			printf("Buzz ");
 		}
