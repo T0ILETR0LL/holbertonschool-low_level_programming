@@ -32,6 +32,10 @@ int  main(void)
 		if (div5 != 0 && div3 != 0)
 		{
 			printf("%d ", n);
+		if (n == 100)
+		{
+			printf("Buzz");
+		}
 		}
 	}
 	printf("\n");
