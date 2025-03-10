@@ -18,7 +18,6 @@ void print_rev(char *s)
 	_putchar('\n');
 }
 
-
 #include "main.h"
 
 /**
@@ -28,13 +27,12 @@ void print_rev(char *s)
  */
 int _strlen(char *s)
 {
-        int length;
-
-        length = 0;
-        while (s[length] != '\0')
-        {
-                length++;
-        }
-
-        return (length);
+	int length;
+	
+	length = 0;
+	while (s[length] != '\0')
+	{
+		length++;
+	}
+	return (length);
 }
