@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * _strcat - prints a string in reverse
+ * _strncat - prints a string in reverse
  * @dest: string
  * @src: string
+ * @n: byte
  * Return: (dest)
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int a;
 	int b;
@@ -18,7 +19,7 @@ char *_strcat(char *dest, char *src)
 	{
 		a++;
 	}
-	while (src[b] != '\0')
+	while (src[b] != '\0' && src[b] < src[n])
 	{
 		dest[a] = src[b];
 		a++;
