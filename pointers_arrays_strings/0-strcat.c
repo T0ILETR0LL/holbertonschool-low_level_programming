@@ -2,14 +2,15 @@
 
 /**
  * _strcat - prints a string in reverse
- * @s: variable
- * Return: (0)
+ * @dest: string
+ * @src: string
+ * Return: (dest)
  */
 char *_strcat(char *dest, char *src)
 {
 	int a;
 	int b;
-	
+
 	a = 0;
 	b = 0;
 
