@@ -10,16 +10,15 @@ void rev_string(char *s)
 	int end;
 	int temp;
 	int start;
-	end = _strlen(s) - 1;
+	end = _strlen(s);
 	start = 0;
-
+	
 	while (start < end/2)
 	{
 	temp = s[start];
-	s[start] = s[end];
-	s[end] = temp;
-        start++;
-	end--;
+	s[start] = s[end-start];
+	s[end-start] = temp;
+        start++;	
 	}
 }
 
@@ -37,5 +36,5 @@ int _strlen(char *s)
 	{
 		length++;
 	}
-	return (length);
+	return (length -1);
 }
