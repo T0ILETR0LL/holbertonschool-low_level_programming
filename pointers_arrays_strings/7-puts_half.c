@@ -50,5 +50,5 @@ int _strlen(char *str)
 		length++;
 	}
 
-	return (length - 1);
+	return (length);
 }
