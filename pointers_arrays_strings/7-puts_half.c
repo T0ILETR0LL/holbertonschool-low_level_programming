@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_rev- prints a string in reverse
- * @s: variable
+ * puts_half- prints half a string
+ * @str: string
  * Return: (0)
  */
 void puts_half(char *str)
@@ -37,7 +37,7 @@ void puts_half(char *str)
 
 /**
  * _strlen- returns the length of a string
- * @s: string
+ * @string: string
  * Return: (0)
  */
 int _strlen(char *str)
