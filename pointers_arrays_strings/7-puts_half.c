@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * puts_half- prints half a string
- * @str: string
+ * print_rev- prints a string in reverse
+ * @s: variable
  * Return: (0)
  */
 void puts_half(char *str)
@@ -12,21 +12,21 @@ void puts_half(char *str)
 	int half;
 
 	length = _strlen(str);
-	n = (length + 1) / 2;
-	half = length / 2;
+	n = (length + 1)/2;
+	half = length/2;
 
 	if (length % 2 == 0)
 	{
-		while (half < length)
+		while (half <= length)
 		{
 		_putchar(str[half]);
 		half++;
 		}
 		_putchar('\n');
 	}
-	else
-	{
-		while (n <= length - 1)
+	else 
+	{	
+		while (n <= length)
 		{
 		_putchar(str[n]);
 		n++;
@@ -37,7 +37,7 @@ void puts_half(char *str)
 
 /**
  * _strlen- returns the length of a string
- * @str: string
+ * @s: string
  * Return: (0)
  */
 int _strlen(char *str)
