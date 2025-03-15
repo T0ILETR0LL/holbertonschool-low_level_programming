@@ -23,6 +23,7 @@ char *_strncpy(char *dest, char *src, int n)
 	}
 	if (a < n)
 	{	
+		dest[a] = src[n];
 		dest [a] = '\0';
 		a++;
 	}
