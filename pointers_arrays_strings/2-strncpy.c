@@ -22,9 +22,9 @@ char *_strncpy(char *dest, char *src, int n)
 		b++;
 	}
 	if (n < a)
-	{
+	{	
 		dest [a] = '\0';
-		n++;
+		a++;
 	}
 	return (dest);
 }
