@@ -22,7 +22,7 @@ char *_strstr(char *haystack, char *needle)
 		{
 			b++;
 			locate++;
-			return (&haystack[n]);
+			return (&haystack[locate]);
 		}
 		n++;
 	}
