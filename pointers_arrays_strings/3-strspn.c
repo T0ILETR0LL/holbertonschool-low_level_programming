@@ -29,6 +29,10 @@ unsigned int _strspn(char *s, char *accept)
 			}
 			b++;
 		}
+		if (found == 0)
+		{
+			return (length);
+		}
 		n++;
 	}	
 	return (length);
