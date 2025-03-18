@@ -12,21 +12,24 @@ unsigned int _strspn(char *s, char *accept)
 	int n;
 	int b;
 	int length;
+	int found;
 
 	length = 0;
 	n = 0;
 	while (s[n] != '\0')
 	{
+		found = 0;
 		b = 0;
-		while (accept[b] != '\0' && s[n] == accept[b])
+		while (accept[b] != '\0' && found == 0)
 		{
 			if (s[n] == accept[b])
 			{
 				length++;
+				found++;
 			}
 			b++;
 		}
 		n++;
-	}
+	}	
 	return (length);
 }
