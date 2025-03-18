@@ -3,8 +3,8 @@
 
 /**
  * _strstr- locates a substring
- * @s: string to scan
- * @accept: string to match
+ * @haystack: string to scan
+ * @needle: string to match
  * Return: (null) (&s)
  */
 char *_strstr(char *haystack, char *needle)
