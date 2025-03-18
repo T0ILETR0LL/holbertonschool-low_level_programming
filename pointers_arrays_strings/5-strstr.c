@@ -11,19 +11,21 @@ char *_strstr(char *haystack, char *needle)
 {
 	int n;
 	int b;
+	int locate;
 
 	n = 0;
 	while (haystack[n] != '\0')
 	{
 		b = 0;
-		while(needle[b] == haystack[n])
+		locate = n;
+		while (needle[b] == haystack[n])
 		{
 			b++;
 			n++;
 		}
-		if (needle [b] == '\0')
+		if (needle[b] == '\0')
 		{
-			return (&haystack[n]);
+			return (&haystack[locate]);
 		}
 		n++;
 	}
