@@ -5,7 +5,7 @@
 /**
  * main- multiplies two numbers
  * @argc: number of arguments
- * @argv: string
+ * @argv: array of arguments
  * Return: (0)
  */
 int main(int argc, char *argv[])
@@ -37,6 +37,6 @@ int main(int argc, char *argv[])
 		result += atoi(argv[n]);
 		n++;
 	}
-	printf("%i\n", result);
+	printf("%d\n", result);
 	return (0);
 }
