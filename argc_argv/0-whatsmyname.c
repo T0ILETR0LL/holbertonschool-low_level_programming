@@ -6,7 +6,7 @@
  * @argc: number of arguments
  * @argv: string
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	(void)argc;
 
