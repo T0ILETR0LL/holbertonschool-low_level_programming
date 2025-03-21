@@ -12,6 +12,8 @@ int main(int argc, char *argv[])
 {
 	int result;
 	int n;
+	char *string;
+	int i;
 
 	n = 1;
 	if (argc == 1)
@@ -19,13 +21,19 @@ int main(int argc, char *argv[])
 		printf("0\n");
 		return (1);
 	}
-	while (n < argc) 
+	while (n < argc)
 	{
-		if (*argv[n] < 48 && *argv[n] > 57)
-		{
-			printf("Error\n");
-			return (1);
-		}
+		string = argv[n];
+		i = 0;
+		while (string[i] != '\0')
+			{
+				if (string[i] < 48 || string[i] > 57)
+					{
+					printf("Error\n");
+					return (1);
+					}
+				i++;
+			}
 		result += atoi(argv[n]);
 		n++;
 	}
