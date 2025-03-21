@@ -2,16 +2,14 @@
 #include <stdio.h>
 
 /**
- * main - print name 
- * @argc: count
- * @argvv: string
- * Return: (0)
+ * main- prints name
+ * @argc: number of arguments
+ * @argv: string
  */
- 
 int main (int argc, char *argv[])
 {
-	(void) argc;
+	(void)argc;
 
 	printf("%s\n", argv[0]);
 	return (0);
-} 
+}
