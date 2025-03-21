@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 		printf("ERROR\n");
 		return (1);
 	}
-	result = (argc) * (argc - 1);
+	result = (*argv[1]) * (*argv[2]);
 	printf("%d\n", result);
 	
 	return (0);
