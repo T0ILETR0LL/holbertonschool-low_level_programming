@@ -3,17 +3,16 @@
 #include <stdlib.h>
 
 /**
- **_strdup- create array of character
- *@size: size of array
- *@c: characters
- *Return: (0)
+ **_strdup- returns copy of string in a newly allocated space
+ *@str: string
+ *Return: (array) new string
  */
 char *_strdup(char *str)
 {
 	char *array;
 	int size;
-	size = 0;
 
+	size = 0;
 	if (str == NULL)
 	{
 		return (NULL);
@@ -23,9 +22,10 @@ char *_strdup(char *str)
 		size++;
 	}
 	array = malloc(size * sizeof(char));
+	size = 0;
 	while (*str)
 	{
-		*array = *str;
+		array[size] = str[size];
 	}
 	return (array);
 }
