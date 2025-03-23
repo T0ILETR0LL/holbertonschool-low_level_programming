@@ -30,7 +30,7 @@ char *_strdup(char *str)
 	while (str[size] != '\0')
 	{
 		array[size] = str[size];
-		size ++;
+		size++;
 	}
 	array[size] = '\0';
 	return (array);
