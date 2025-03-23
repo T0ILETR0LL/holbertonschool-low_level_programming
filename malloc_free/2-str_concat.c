@@ -15,9 +15,13 @@ char *str_concat(char *s1, char *s2)
 
 	a = 0;
 	b = 0;
-	if (s1 == NULL || s2 == NULL)
+	if (s1 == NULL)
 	{
-		return (0);
+		*s1 = 0;
+	}
+	if (s2 == NULL)
+	{
+		*s2 = 0;
 	}
 	while (s1[a] != '\0')
 	{
