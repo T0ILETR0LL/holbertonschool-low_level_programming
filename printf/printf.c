@@ -15,8 +15,7 @@ int _printf(const char *format, ...)
 	int index = 0; 
 	unsigned int a;
 	char *s;
-	int d;
-	
+	int b;
 
 
 	if (!format)
@@ -48,15 +47,15 @@ int _printf(const char *format, ...)
                                    _putchar('%');
 				index ++;
                                    break;
-				case 'd' : a = printnum(va_arg(list,int));
-				while
-				{
-
-					
-					   //putchar here but its a string
-
-				index++;
-                        }
+				case 'd' : b  = printnum(va_arg(list,int));
+					_putchar(b);
+					   index ++;
+					break;
+				case 'i' : b = printnum(va_arg(list,int));
+					  _putchar(b);
+					   index++;
+					   break;
+			 }
 		}
 		if (format[index] != '%')
 		{

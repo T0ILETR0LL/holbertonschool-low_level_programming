@@ -1,3 +1,5 @@
+#include "main.h"
+
 
 int printnum (int n)
 {
@@ -20,7 +22,8 @@ int printnum (int n)
         }
         if (num / 10)
         {
-                remainder += printnum(num / 10);
+                remainder += printnum(num % 10);
         }
+	_putchar(remainder);
         return (remainder);
 }
