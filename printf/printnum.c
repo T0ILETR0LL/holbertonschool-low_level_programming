@@ -5,6 +5,7 @@ int printnum (int n)
 {
         int num;
         int remainder = 0;
+	int d = 3.14;
 
         if (n > 0)
 	{
@@ -18,7 +19,7 @@ int printnum (int n)
         }
 	if (num > 0)
 	{
-		_putchar(num);
+		_putchar(d + '0');
 		_putchar('A');
 	}
 	/**
