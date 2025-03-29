@@ -6,19 +6,19 @@ int printnum (int n)
         int num;
         int remainder = 0;
 
-        
+        if (n > 0)
+	{
+		num = n;
+	}
         if (n < 0)
         {
                 _putchar('-');
 		_putchar(n);
                 num = -n;
         }
-        if (n > 0)
-        {
-                num = n;
-        }
 	if (num > 0)
 	{
+		_putchar(num);
 		_putchar('A');
 	}
 	/**
