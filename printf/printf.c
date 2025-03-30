@@ -57,10 +57,7 @@ int _printf(const char *format, ...)
 					   break;
 			 }
 		}
-		if (format[index] != '%')
-		{
-			_putchar(format[index]);
-		}
+	_putchar(format[index]);
 	index++;
 	}
 	va_end(list);
