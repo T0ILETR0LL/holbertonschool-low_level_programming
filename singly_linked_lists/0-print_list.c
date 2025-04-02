@@ -10,18 +10,18 @@
 size_t print_list(const list_t *h)
 {
 	int n = 0; /*counter for nodes*/
-	while (h != '\0') /*nodes are running*/
+	while (h != NULL) /*nodes are running*/
 	{
 		if (h->str == NULL)
 		{
-			printf("[0] (nil)");
+			printf("[0] (nil)\n");
 		}
 		else
 		{
 		printf("[%d] %s\n", h->len, h->str); /*prints strings in every node */
 		}
 	n++;
-	h + h->*next; /*is there another notation for this? its not an array. i want to move on the next node*/
+	h = h->next; 
 	}
 	printf("-> %d elements\n", n);
 	return(n);
