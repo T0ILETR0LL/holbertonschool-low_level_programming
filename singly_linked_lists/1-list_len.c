@@ -10,7 +10,7 @@
 size_t list_len(const list_t *h)
 {
 	int n = 0; /*counter for nodes*/
-	
+
 	while (h != NULL) /*nodes are running*/
 	{
 	n++;
