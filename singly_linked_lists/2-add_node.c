@@ -1,6 +1,7 @@
 #include "lists.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 /**
  * print_list - prints the nodes
@@ -9,15 +10,15 @@
  */
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t *new;
-	int i = 0;
+	list_t *new; /*new node*/
+	int i = 0; /* for string length */ 
 
-	new = malloc(sizeof(list_t));
+	new = malloc(sizeof(list_t)); /*allocate space for new node*/
 	if (new == NULL)
 	{
 		printf("NULL");
 	}
-	while (str[i] != '\0')
+	while (str[i] != '\0') 
 	{
 		i++;
 	}
@@ -25,5 +26,5 @@ list_t *add_node(list_t **head, const char *str)
 	new-> len = i;
 	new-> next = *head;
 	*head = new;
-	return (head);
+	return (new);
 }
