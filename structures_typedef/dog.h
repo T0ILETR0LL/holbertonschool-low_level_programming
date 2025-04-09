@@ -4,6 +4,9 @@
 
 /**
  * struct dog - new type
+ * @name: name
+ * @age: age
+ * @owner: owner
  */
 
 struct dog
