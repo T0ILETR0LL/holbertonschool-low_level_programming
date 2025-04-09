@@ -3,7 +3,7 @@
 
 
 /**
- * struct dog - new type 
+ * struct dog - new type
  */
 
 struct dog
