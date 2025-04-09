@@ -3,9 +3,9 @@
 
 
 /**
- * main - check the code
+ * struct dog - new type
  *
- * Return: Always 0.
+ * 
  */
 
 struct dog
