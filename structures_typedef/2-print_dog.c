@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * init_dog - initialize struct dog
+ * print_dog - initialize struct dog
  * @d: struct
  */
 
