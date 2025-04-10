@@ -4,8 +4,7 @@
 
 /**
  * list_len - prints the nodes
- * @str: string - (malloc'ed string)
- * @Return: number of nodes
+ * @Return: (n)
  */
 size_t list_len(const list_t *h)
 {
