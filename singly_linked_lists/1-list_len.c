@@ -4,7 +4,8 @@
 
 /**
  * list_len - prints the nodes
- * @Return: (n)
+ * @h: nodes
+ * Return: (n)
  */
 size_t list_len(const list_t *h)
 {
