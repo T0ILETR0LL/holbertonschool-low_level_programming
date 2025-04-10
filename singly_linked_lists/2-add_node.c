@@ -11,15 +11,15 @@
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new; /*new node*/
-	int i = 0; /* for string length */ 
+	int i = 0;/* for string length */ 
 
 	new = malloc(sizeof(list_t)); /*allocate space for new node*/
 	if (new == NULL)
 	{
 		free(new);
-		return(NULL);
+		return (NULL);
 	}
-	while (str[i] != '\0') 
+	while (str[i] != '\0')
 	{
 		i++;
 	}
